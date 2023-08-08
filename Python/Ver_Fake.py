@@ -22,7 +22,8 @@ def designatedLocation(master):
     desloc=input("請輸入位置 -- ")
     try:
         float(desloc)
-        print("你輸入的位置是："+desloc+"\n")
+        desloc*=100
+        print("你輸入的位置是："+desloc+" pulse\n")
     except:
         print("輸入無效，請再試一次。\n")
         designatedLocation(master)

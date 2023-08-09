@@ -27,5 +27,8 @@ def designatedLocation(master):
     except:
         print("輸入無效，請再試一次。\n")
         designatedLocation(master)
+def readCurrentLocation(master):
+    print("讀取完成，目前位置...\n")
 def closeup(master):
+    print("若未SERVO OFF，已自動處理完畢。")
     print("Program terminated.")
